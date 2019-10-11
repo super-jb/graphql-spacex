@@ -1,4 +1,5 @@
 # Graphql with SpaceX API
+![GraphQL](https://avatars2.githubusercontent.com/u/13958777?s=50&v=4)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 

@@ -3,6 +3,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
+https://graphql-spacex.firebaseapp.com/
+
 ## Steps
 
 1. Generate a new angular application with routing

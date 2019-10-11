@@ -124,5 +124,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Check the .ts, .html and .scss files for Launch-List and Launch-Details
 
-1. `npm start`, navigate to `http://localhost:4200/`, and it should work!
+1. Thanks to the new builtin [relative time formating](https://v8.dev/features/intl-relativetimeformat) in V8, we can add `launched x days ago`
 
+1. Generate the pipe: `ng g pipe relative-time --module=app.module --flat=false`
+
+1. Update [relative-time pipe] accordingly and add pipe logic to [launch-list.component.html]
+```html
+  <mat-card-subtitle>
+    {{ launch.rocket.rocket_name }} - launched {{ launch.launch_date_utc | relativeTime }}
+  </mat-card-subtitle>
+``` 
+
+1. `npm start`, navigate to `http://localhost:4200/`, and it should work!

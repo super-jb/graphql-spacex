@@ -1,0 +1,13 @@
+.photo-grid {
+  padding-top: 30px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+}
+
+.photo-logo {
+  height: 20%;
+  width: 20%;
+  justify-content: center;
+}
